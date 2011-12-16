@@ -84,6 +84,7 @@
 				F551FD27149BD6D3009655F3 /* NativeCal */,
 				F551FD45149BD6D3009655F3 /* NativeCalTests */,
 				F551FD20149BD6D3009655F3 /* Frameworks */,
+				F551FD56149BD9F2009655F3 /* Resources */,
 				F551FD1E149BD6D3009655F3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -151,6 +152,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F551FD56149BD9F2009655F3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -197,7 +205,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0420;
-				ORGANIZATIONNAME = "TU Darmstadt";
+				ORGANIZATIONNAME = YoungWolves;
 			};
 			buildConfigurationList = F551FD17149BD6D2009655F3 /* Build configuration list for PBXProject "NativeCal" */;
 			compatibilityVersion = "Xcode 3.2";
