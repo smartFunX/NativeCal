@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F551FD22149BD6D3009655F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F551FD21149BD6D3009655F3 /* UIKit.framework */; };
+		F551FD24149BD6D3009655F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F551FD23149BD6D3009655F3 /* Foundation.framework */; };
+		F551FD26149BD6D3009655F3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F551FD25149BD6D3009655F3 /* CoreGraphics.framework */; };
+		F551FD2C149BD6D3009655F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F551FD2A149BD6D3009655F3 /* InfoPlist.strings */; };
+		F551FD2E149BD6D3009655F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F551FD2D149BD6D3009655F3 /* main.m */; };
+		F551FD32149BD6D3009655F3 /* NCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F551FD31149BD6D3009655F3 /* NCAppDelegate.m */; };
+		F551FD35149BD6D3009655F3 /* NCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F551FD34149BD6D3009655F3 /* NCViewController.m */; };
+		F551FD38149BD6D3009655F3 /* NCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F551FD36149BD6D3009655F3 /* NCViewController.xib */; };
+		F551FD40149BD6D3009655F3 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F551FD3F149BD6D3009655F3 /* SenTestingKit.framework */; };
+		F551FD41149BD6D3009655F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F551FD21149BD6D3009655F3 /* UIKit.framework */; };
+		F551FD42149BD6D3009655F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F551FD23149BD6D3009655F3 /* Foundation.framework */; };
+		F551FD4A149BD6D3009655F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F551FD48149BD6D3009655F3 /* InfoPlist.strings */; };
+		F551FD4D149BD6D3009655F3 /* NativeCalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F551FD4C149BD6D3009655F3 /* NativeCalTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F551FD43149BD6D3009655F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F551FD14149BD6D2009655F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F551FD1C149BD6D3009655F3;
+			remoteInfo = NativeCal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F551FD1D149BD6D3009655F3 /* NativeCal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NativeCal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F551FD21149BD6D3009655F3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F551FD23149BD6D3009655F3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F551FD25149BD6D3009655F3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F551FD29149BD6D3009655F3 /* NativeCal-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NativeCal-Info.plist"; sourceTree = "<group>"; };
+		F551FD2B149BD6D3009655F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F551FD2D149BD6D3009655F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F551FD2F149BD6D3009655F3 /* NativeCal-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NativeCal-Prefix.pch"; sourceTree = "<group>"; };
+		F551FD30149BD6D3009655F3 /* NCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NCAppDelegate.h; sourceTree = "<group>"; };
+		F551FD31149BD6D3009655F3 /* NCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NCAppDelegate.m; sourceTree = "<group>"; };
+		F551FD33149BD6D3009655F3 /* NCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NCViewController.h; sourceTree = "<group>"; };
+		F551FD34149BD6D3009655F3 /* NCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NCViewController.m; sourceTree = "<group>"; };
+		F551FD37149BD6D3009655F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NCViewController.xib; sourceTree = "<group>"; };
+		F551FD3E149BD6D3009655F3 /* NativeCalTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NativeCalTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F551FD3F149BD6D3009655F3 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		F551FD47149BD6D3009655F3 /* NativeCalTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NativeCalTests-Info.plist"; sourceTree = "<group>"; };
+		F551FD49149BD6D3009655F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F551FD4B149BD6D3009655F3 /* NativeCalTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NativeCalTests.h; sourceTree = "<group>"; };
+		F551FD4C149BD6D3009655F3 /* NativeCalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NativeCalTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F551FD1A149BD6D3009655F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F551FD22149BD6D3009655F3 /* UIKit.framework in Frameworks */,
+				F551FD24149BD6D3009655F3 /* Foundation.framework in Frameworks */,
+				F551FD26149BD6D3009655F3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F551FD3A149BD6D3009655F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F551FD40149BD6D3009655F3 /* SenTestingKit.framework in Frameworks */,
+				F551FD41149BD6D3009655F3 /* UIKit.framework in Frameworks */,
+				F551FD42149BD6D3009655F3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F551FD12149BD6D2009655F3 = {
+			isa = PBXGroup;
+			children = (
+				F551FD27149BD6D3009655F3 /* NativeCal */,
+				F551FD45149BD6D3009655F3 /* NativeCalTests */,
+				F551FD20149BD6D3009655F3 /* Frameworks */,
+				F551FD1E149BD6D3009655F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F551FD1E149BD6D3009655F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F551FD1D149BD6D3009655F3 /* NativeCal.app */,
+				F551FD3E149BD6D3009655F3 /* NativeCalTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F551FD20149BD6D3009655F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F551FD21149BD6D3009655F3 /* UIKit.framework */,
+				F551FD23149BD6D3009655F3 /* Foundation.framework */,
+				F551FD25149BD6D3009655F3 /* CoreGraphics.framework */,
+				F551FD3F149BD6D3009655F3 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F551FD27149BD6D3009655F3 /* NativeCal */ = {
+			isa = PBXGroup;
+			children = (
+				F551FD30149BD6D3009655F3 /* NCAppDelegate.h */,
+				F551FD31149BD6D3009655F3 /* NCAppDelegate.m */,
+				F551FD33149BD6D3009655F3 /* NCViewController.h */,
+				F551FD34149BD6D3009655F3 /* NCViewController.m */,
+				F551FD36149BD6D3009655F3 /* NCViewController.xib */,
+				F551FD28149BD6D3009655F3 /* Supporting Files */,
+			);
+			path = NativeCal;
+			sourceTree = "<group>";
+		};
+		F551FD28149BD6D3009655F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F551FD29149BD6D3009655F3 /* NativeCal-Info.plist */,
+				F551FD2A149BD6D3009655F3 /* InfoPlist.strings */,
+				F551FD2D149BD6D3009655F3 /* main.m */,
+				F551FD2F149BD6D3009655F3 /* NativeCal-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F551FD45149BD6D3009655F3 /* NativeCalTests */ = {
+			isa = PBXGroup;
+			children = (
+				F551FD4B149BD6D3009655F3 /* NativeCalTests.h */,
+				F551FD4C149BD6D3009655F3 /* NativeCalTests.m */,
+				F551FD46149BD6D3009655F3 /* Supporting Files */,
+			);
+			path = NativeCalTests;
+			sourceTree = "<group>";
+		};
+		F551FD46149BD6D3009655F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F551FD47149BD6D3009655F3 /* NativeCalTests-Info.plist */,
+				F551FD48149BD6D3009655F3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F551FD1C149BD6D3009655F3 /* NativeCal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F551FD50149BD6D3009655F3 /* Build configuration list for PBXNativeTarget "NativeCal" */;
+			buildPhases = (
+				F551FD19149BD6D3009655F3 /* Sources */,
+				F551FD1A149BD6D3009655F3 /* Frameworks */,
+				F551FD1B149BD6D3009655F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NativeCal;
+			productName = NativeCal;
+			productReference = F551FD1D149BD6D3009655F3 /* NativeCal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F551FD3D149BD6D3009655F3 /* NativeCalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F551FD53149BD6D3009655F3 /* Build configuration list for PBXNativeTarget "NativeCalTests" */;
+			buildPhases = (
+				F551FD39149BD6D3009655F3 /* Sources */,
+				F551FD3A149BD6D3009655F3 /* Frameworks */,
+				F551FD3B149BD6D3009655F3 /* Resources */,
+				F551FD3C149BD6D3009655F3 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F551FD44149BD6D3009655F3 /* PBXTargetDependency */,
+			);
+			name = NativeCalTests;
+			productName = NativeCalTests;
+			productReference = F551FD3E149BD6D3009655F3 /* NativeCalTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F551FD14149BD6D2009655F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "TU Darmstadt";
+			};
+			buildConfigurationList = F551FD17149BD6D2009655F3 /* Build configuration list for PBXProject "NativeCal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F551FD12149BD6D2009655F3;
+			productRefGroup = F551FD1E149BD6D3009655F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F551FD1C149BD6D3009655F3 /* NativeCal */,
+				F551FD3D149BD6D3009655F3 /* NativeCalTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F551FD1B149BD6D3009655F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F551FD2C149BD6D3009655F3 /* InfoPlist.strings in Resources */,
+				F551FD38149BD6D3009655F3 /* NCViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F551FD3B149BD6D3009655F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F551FD4A149BD6D3009655F3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F551FD3C149BD6D3009655F3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F551FD19149BD6D3009655F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F551FD2E149BD6D3009655F3 /* main.m in Sources */,
+				F551FD32149BD6D3009655F3 /* NCAppDelegate.m in Sources */,
+				F551FD35149BD6D3009655F3 /* NCViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F551FD39149BD6D3009655F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F551FD4D149BD6D3009655F3 /* NativeCalTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F551FD44149BD6D3009655F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F551FD1C149BD6D3009655F3 /* NativeCal */;
+			targetProxy = F551FD43149BD6D3009655F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F551FD2A149BD6D3009655F3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F551FD2B149BD6D3009655F3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F551FD36149BD6D3009655F3 /* NCViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F551FD37149BD6D3009655F3 /* en */,
+			);
+			name = NCViewController.xib;
+			sourceTree = "<group>";
+		};
+		F551FD48149BD6D3009655F3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F551FD49149BD6D3009655F3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F551FD4E149BD6D3009655F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F551FD4F149BD6D3009655F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F551FD51149BD6D3009655F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NativeCal/NativeCal-Prefix.pch";
+				INFOPLIST_FILE = "NativeCal/NativeCal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F551FD52149BD6D3009655F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NativeCal/NativeCal-Prefix.pch";
+				INFOPLIST_FILE = "NativeCal/NativeCal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F551FD54149BD6D3009655F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NativeCal.app/NativeCal";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NativeCal/NativeCal-Prefix.pch";
+				INFOPLIST_FILE = "NativeCalTests/NativeCalTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F551FD55149BD6D3009655F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NativeCal.app/NativeCal";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NativeCal/NativeCal-Prefix.pch";
+				INFOPLIST_FILE = "NativeCalTests/NativeCalTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F551FD17149BD6D2009655F3 /* Build configuration list for PBXProject "NativeCal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F551FD4E149BD6D3009655F3 /* Debug */,
+				F551FD4F149BD6D3009655F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F551FD50149BD6D3009655F3 /* Build configuration list for PBXNativeTarget "NativeCal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F551FD51149BD6D3009655F3 /* Debug */,
+				F551FD52149BD6D3009655F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F551FD53149BD6D3009655F3 /* Build configuration list for PBXNativeTarget "NativeCalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F551FD54149BD6D3009655F3 /* Debug */,
+				F551FD55149BD6D3009655F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F551FD14149BD6D2009655F3 /* Project object */;
+}
