@@ -369,6 +369,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NativeCal/NativeCal-Prefix.pch";
 				INFOPLIST_FILE = "NativeCal/NativeCal-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -380,6 +381,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NativeCal/NativeCal-Prefix.pch";
 				INFOPLIST_FILE = "NativeCal/NativeCal-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -438,6 +440,7 @@
 				F551FD52149BD6D3009655F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F551FD53149BD6D3009655F3 /* Build configuration list for PBXNativeTarget "NativeCalTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +449,7 @@
 				F551FD55149BD6D3009655F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
