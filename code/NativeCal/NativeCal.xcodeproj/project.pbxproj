@@ -20,6 +20,11 @@
 		F551FD42149BD6D3009655F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F551FD23149BD6D3009655F3 /* Foundation.framework */; };
 		F551FD4A149BD6D3009655F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F551FD48149BD6D3009655F3 /* InfoPlist.strings */; };
 		F551FD4D149BD6D3009655F3 /* NativeCalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F551FD4C149BD6D3009655F3 /* NativeCalTests.m */; };
+		F588F36E14A3C02E000E0FFD /* NLToken.m in Sources */ = {isa = PBXBuildFile; fileRef = F588F36D14A3C02E000E0FFD /* NLToken.m */; };
+		F588F37214A3C043000E0FFD /* NLAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = F588F37114A3C043000E0FFD /* NLAnnotation.m */; };
+		F5F368CE14A299670043AE05 /* NLTokenizer.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F368CD14A299670043AE05 /* NLTokenizer.m */; };
+		F5F368D114A2997D0043AE05 /* NLPipeline.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F368D014A2997D0043AE05 /* NLPipeline.m */; };
+		F5F368D414A299A00043AE05 /* NLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F368D314A2999F0043AE05 /* NLDocument.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +57,17 @@
 		F551FD49149BD6D3009655F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F551FD4B149BD6D3009655F3 /* NativeCalTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NativeCalTests.h; sourceTree = "<group>"; };
 		F551FD4C149BD6D3009655F3 /* NativeCalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NativeCalTests.m; sourceTree = "<group>"; };
+		F588F36C14A3C02E000E0FFD /* NLToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NLToken.h; path = NLP/Types/NLToken.h; sourceTree = "<group>"; };
+		F588F36D14A3C02E000E0FFD /* NLToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NLToken.m; path = NLP/Types/NLToken.m; sourceTree = "<group>"; };
+		F588F37014A3C043000E0FFD /* NLAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NLAnnotation.h; path = NLP/Types/NLAnnotation.h; sourceTree = "<group>"; };
+		F588F37114A3C043000E0FFD /* NLAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NLAnnotation.m; path = NLP/Types/NLAnnotation.m; sourceTree = "<group>"; };
+		F5F368CC14A299670043AE05 /* NLTokenizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NLTokenizer.h; path = NLP/NLTokenizer.h; sourceTree = "<group>"; };
+		F5F368CD14A299670043AE05 /* NLTokenizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NLTokenizer.m; path = NLP/NLTokenizer.m; sourceTree = "<group>"; };
+		F5F368CF14A2997D0043AE05 /* NLPipeline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NLPipeline.h; path = NLP/NLPipeline.h; sourceTree = "<group>"; };
+		F5F368D014A2997D0043AE05 /* NLPipeline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NLPipeline.m; path = NLP/NLPipeline.m; sourceTree = "<group>"; };
+		F5F368D214A2999F0043AE05 /* NLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NLDocument.h; path = NLP/NLDocument.h; sourceTree = "<group>"; };
+		F5F368D314A2999F0043AE05 /* NLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NLDocument.m; path = NLP/NLDocument.m; sourceTree = "<group>"; };
+		F5F368D514A299F80043AE05 /* NLProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NLProcessor.h; path = NLP/NLProcessor.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +128,7 @@
 		F551FD27149BD6D3009655F3 /* NativeCal */ = {
 			isa = PBXGroup;
 			children = (
+				F551FD57149C059A009655F3 /* NLP */,
 				F551FD30149BD6D3009655F3 /* NCAppDelegate.h */,
 				F551FD31149BD6D3009655F3 /* NCAppDelegate.m */,
 				F551FD33149BD6D3009655F3 /* NCViewController.h */,
@@ -157,6 +174,32 @@
 			children = (
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		F551FD57149C059A009655F3 /* NLP */ = {
+			isa = PBXGroup;
+			children = (
+				F5F368E014A2A3AC0043AE05 /* Types */,
+				F5F368CC14A299670043AE05 /* NLTokenizer.h */,
+				F5F368CD14A299670043AE05 /* NLTokenizer.m */,
+				F5F368CF14A2997D0043AE05 /* NLPipeline.h */,
+				F5F368D014A2997D0043AE05 /* NLPipeline.m */,
+				F5F368D214A2999F0043AE05 /* NLDocument.h */,
+				F5F368D314A2999F0043AE05 /* NLDocument.m */,
+				F5F368D514A299F80043AE05 /* NLProcessor.h */,
+			);
+			name = NLP;
+			sourceTree = "<group>";
+		};
+		F5F368E014A2A3AC0043AE05 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				F588F36C14A3C02E000E0FFD /* NLToken.h */,
+				F588F36D14A3C02E000E0FFD /* NLToken.m */,
+				F588F37014A3C043000E0FFD /* NLAnnotation.h */,
+				F588F37114A3C043000E0FFD /* NLAnnotation.m */,
+			);
+			name = Types;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,6 +312,11 @@
 				F551FD2E149BD6D3009655F3 /* main.m in Sources */,
 				F551FD32149BD6D3009655F3 /* NCAppDelegate.m in Sources */,
 				F551FD35149BD6D3009655F3 /* NCViewController.m in Sources */,
+				F5F368CE14A299670043AE05 /* NLTokenizer.m in Sources */,
+				F5F368D114A2997D0043AE05 /* NLPipeline.m in Sources */,
+				F5F368D414A299A00043AE05 /* NLDocument.m in Sources */,
+				F588F36E14A3C02E000E0FFD /* NLToken.m in Sources */,
+				F588F37214A3C043000E0FFD /* NLAnnotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,7 +417,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NativeCal/NativeCal-Prefix.pch";
 				INFOPLIST_FILE = "NativeCal/NativeCal-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -381,7 +429,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NativeCal/NativeCal-Prefix.pch";
 				INFOPLIST_FILE = "NativeCal/NativeCal-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
