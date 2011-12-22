@@ -1,16 +1,14 @@
 //
-//  NLPipeline.h
+//  NLToken.h
 //  NativeCal
 //
-//  Created by Artem Vovk on 12/21/11.
+//  Created by Artem Vovk on 12/22/11.
 //  Copyright (c) 2011 YoungWolves. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
+#import "NLAnnotation.h"
 
-@interface NLPipeline : NSObject
-
-
-- (void)create
+@interface NLToken : NLAnnotation
 
 @end

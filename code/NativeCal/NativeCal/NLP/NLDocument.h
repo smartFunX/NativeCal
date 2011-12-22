@@ -7,8 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "NLAnnotation.h"
 
 @interface NLDocument : NSObject
+
+
+@property (strong, nonatomic) NSMutableDictionary *annotations;
+@property (strong, nonatomic) NSString *text;
+
+- (NSEnumerator *)getAnnotations: (NLAnnotation.Class) annotation;
+- (void)addAnnotation: (NLAnnotation *) annotation;
 
 @end

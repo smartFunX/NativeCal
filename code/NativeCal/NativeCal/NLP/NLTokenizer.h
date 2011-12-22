@@ -11,5 +11,6 @@
 
 @interface NLTokenizer : NSObject<NLProcessor>
 
+- (void)process:(NLDocument *)document;
 
 @end
