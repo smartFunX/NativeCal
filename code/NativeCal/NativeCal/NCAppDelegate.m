@@ -10,6 +10,7 @@
 
 #import "NCViewController.h"
 
+
 @implementation NCAppDelegate
 
 @synthesize window = _window;
