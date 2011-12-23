@@ -7,10 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "NLProcessor.h"
 
 @interface NLPipeline : NSObject
 
 
-- (void)create
+- (void)create:(NLProcessor *) processor;
 
 @end

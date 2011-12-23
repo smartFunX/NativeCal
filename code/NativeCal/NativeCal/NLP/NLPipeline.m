@@ -11,6 +11,9 @@
 @implementation NLPipeline
 
 
-
+- (void)create:(NLProcessor *) processor 
+{
+    
+}
 
 @end
